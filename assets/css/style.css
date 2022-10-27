@@ -17,6 +17,9 @@ body{
 header{
     padding: 20px 70px;
     background: #1d1d1f;
+    width: 100vw;
+    position: fixed;
+    z-index: 101;
 }
 .navigation{
     display: flex;
@@ -52,6 +55,8 @@ main section{
     align-items: center;
     justify-content: space-between;
     padding: 5rem 10rem;
+    position: relative;
+    top: 75px;
 }
 .main-text img{
     width: 15rem;
